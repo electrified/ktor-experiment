@@ -3,7 +3,7 @@ ktor:
         modules:
             - org.maidavale.ApplicationKt.module
   deployment:
-      port: 8080
+      port: 8024
   kafka:
     schema.registry.url:
         - "SCHEMA_REGISTRY_URL"

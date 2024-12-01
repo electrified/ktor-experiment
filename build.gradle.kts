@@ -42,6 +42,11 @@ dependencies {
     implementation(libs.ktor.server.netty)
     implementation(libs.logback.classic)
     implementation(libs.ktor.server.config.yaml)
+    implementation("io.ktor:ktor-client-cio:3.0.1")
+    implementation("io.ktor:ktor-client-content-negotiation:3.0.1")
+
+    implementation("io.ktor:ktor-server-html-builder:3.0.1")
+    implementation("io.ktor:ktor-server-sessions:3.0.1")
     testImplementation(libs.ktor.server.test.host)
     testImplementation(libs.kotlin.test.junit)
 }
